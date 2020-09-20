@@ -87,9 +87,12 @@
     background: #ddd;
   }
   
-  .shadow {
+  .shadow::-webkit-scrollbar-thumb {
     -webkit-border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
+    border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
     -webkit-box-shadow: rgba(0, 0, 0,.30) 0 2px 3px;
+    box-shadow: rgba(0, 0, 0,.30) 0 2px 3px;
+
     }
     .container {
       width: 100%;
