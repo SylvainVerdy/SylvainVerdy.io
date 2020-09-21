@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/caroussel.css">
+
 		<title>Sylvain Verdy</title>
 	</head>
 	<body>
@@ -20,12 +22,38 @@
       <a href="contact.html">Contact</a>
 
     </div>
-		<div class="container">
-    		<div class="blurb">
+		<div class="">
+
+    		<div class="blurb col-md-12 text-center col-xs-12 col-sm-6 col-md-3" style="text-align: center;  margin-left: auto; margin-right: auto;">
         		<h1>Hi there, I'm Sylvain Verdy!</h1>
-				<p>I'm a PhD student in artificial intelligence, at <em>LIA</em>. <a href="/about">Read more about my life...</a></p>
+				<p>I'm a PhD student in artificial intelligence, at <em>LIA</em>. <a href="about.html">Read more about my life...</a></p>
     		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+    </div><!-- /.container -->
+    
+
+    <div class="slide-container">
+      <div class="slide fade">
+        <img src='pictures/human_machine.jpg' alt=''>
+      </div>
+      <div class="slide fade">
+        <img src='pictures/NLP.png' alt=''>
+      </div>
+      <div class="slide fade">
+        <img src='pictures/projet.PNG' alt=''>
+      </div>
+
+      <a href="#" class="prev" title="Previous">&#10094</a>
+      <a href="#" class="next" title="Next">&#10095</a>
+    </div>
+    <div class="dots-container">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script src="js/caroussel.js"> </script>
+
+
 		<canvas></canvas>
 		<footer id="footer" class="footer-1">
       <div class="main-footer widgets-dark typo-light">
